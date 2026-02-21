@@ -1,0 +1,35 @@
+{
+  "name": "@arkbuilder/summon-familiar",
+  "version": "1.0.0",
+  "description": "Summon Familiar - A generic AI agent companion system for code reviews, documentation help, and more",
+  "main": "lib/cli.js",
+  "bin": {
+    "familiar": "bin/familiar.js"
+  },
+  "scripts": {
+    "test": "node test/run-tests.js",
+    "lint": "eslint lib/ bin/"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "familiar",
+    "code-review",
+    "documentation",
+    "cli",
+    "companion"
+  ],
+  "author": "Arkbuilder",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arkbuilder/summon-familiar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arkbuilder/summon-familiar/issues"
+  },
+  "homepage": "https://github.com/arkbuilder/summon-familiar#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
